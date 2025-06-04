@@ -1,0 +1,81 @@
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Account registered.
+Requesting a certificate for fcur.de
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/fcur.de/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/fcur.de/privkey.pem
+This certificate expires on 2025-09-02.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for website.fcur.de
+
+Certbot failed to authenticate some domains (authenticator: webroot). The Certificate Authority reported these problems:
+  Domain: website.fcur.de
+  Type:   unauthorized
+  Detail: 172.105.95.138: Invalid response from http://website.fcur.de/.well-known/acme-challenge/stqdeKrLfwXCOdadkqdQ1HCw9d1WPn4chgKZebqpjA0: 404
+
+Hint: The Certificate Authority failed to download the temporary challenge files created by Certbot. Ensure that the listed domains serve their content from the provided --webroot-path/-w and that files created there can be downloaded from the internet.
+
+Some challenges have failed.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d fcur.de
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d website.fcur.de
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Certificate not yet due for renewal
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Certificate not yet due for renewal; no action taken.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for website.fcur.de
+
+Certbot failed to authenticate some domains (authenticator: webroot). The Certificate Authority reported these problems:
+  Domain: website.fcur.de
+  Type:   connection
+  Detail: 172.105.95.138: Fetching http://website.fcur.de/.well-known/acme-challenge/NgXb-Z-A0Arjj-Or5gA4SCpvWbMr9SgsDoOE6sS7UaA: Connection refused
+
+Hint: The Certificate Authority failed to download the temporary challenge files created by Certbot. Ensure that the listed domains serve their content from the provided --webroot-path/-w and that files created there can be downloaded from the internet.
+
+Some challenges have failed.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d fcur.de
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d website.fcur.de
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Account registered.
+Requesting a certificate for fcur.de
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/fcur.de/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/fcur.de/privkey.pem
+This certificate expires on 2025-09-02.
+These files will be updated when the certificate renews.
+NEXT STEPS:
+- The certificate will need to be renewed before it expires. Certbot can automatically renew the certificate in the background, but you may need to take steps to enable that functionality. See https://certbot.org/renewal-setup for instructions.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Requesting a certificate for website.fcur.de
+
+Certbot failed to authenticate some domains (authenticator: webroot). The Certificate Authority reported these problems:
+  Domain: website.fcur.de
+  Type:   unauthorized
+  Detail: 172.105.95.138: Invalid response from http://website.fcur.de/.well-known/acme-challenge/5vtemdiqCoR67XgscyTzt0wWwaTk13ECrs8x9ixBwCo: 404
+
+Hint: The Certificate Authority failed to download the temporary challenge files created by Certbot. Ensure that the listed domains serve their content from the provided --webroot-path/-w and that files created there can be downloaded from the internet.
+
+Some challenges have failed.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d fcur.de
+[INFO] Running: certbot certonly --webroot --webroot-path /letsencrypt --non-interactive --agree-tos --email mbellil262@gmail.com -d website.fcur.de

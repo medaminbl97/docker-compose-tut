@@ -1,0 +1,1 @@
+0 0 1 * * python3 /app/cert_renew.py >> /var/log/cron.log 2>&1
